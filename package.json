@@ -1,5 +1,5 @@
 {
-  "name": "upper-bench-worker",
+  "name": "the-upper-bench",
   "version": "1.0.0",
   "private": true,
   "description": "The Upper Bench landing page — Cloudflare Worker with static assets",
