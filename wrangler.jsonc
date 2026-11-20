@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "upper-bench-preview",
+  "name": "the-upper-bench",
   "compatibility_date": "2026-11-20",
   "main": "./src/index.js",
   "assets": {
