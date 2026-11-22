@@ -25,3 +25,6 @@ h1 { font-size: clamp(34px, 4.6vw, 51px); letter-spacing: -.047em; line-height: 
 .skip-link:focus { top: 12px; }
 @media (max-width: 600px) { .site { padding: 18px 16px 28px; gap: 22px; } .hero { border-radius: 19px; aspect-ratio: auto; min-height: min(72svh, 620px); } .hero-content { padding: 30px 27px 34px; } .eyebrow { letter-spacing: .24em; font-size: 10px; } h1 { font-size: clamp(35px, 10vw, 48px); margin-bottom: 24px; } .action { font-size: 11px; padding: 0 17px; min-height: 43px; gap: 8px; } .social-links { gap: 11px; } }
 @media (prefers-reduced-motion: reduce) { .background-video { display: none; } .action, .social-links a { transition: none; } }
+.hero::before {
+  filter: brightness(0.76) saturate(0.85);
+}
